@@ -100,7 +100,7 @@ function newQuestion(){
 	//sets up new questions & answerList
 	$('#currentQuestion').html('Question #'+(currentQuestion+1)+'/'+triviaQuestions.length);
 	$('.question').html('<h2>' + triviaQuestions[currentQuestion].question + '</h2>');
-	for(var i = 0; i < 4; i++){
+	for(var i = 0; i < 6; i++){
 		var choices = $('<div>');
 		choices.text(triviaQuestions[currentQuestion].answerList[i]);
 		choices.attr({'data-index': i });

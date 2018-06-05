@@ -1,5 +1,5 @@
 body{
-	background: url('https://www.publicdomainpictures.net/pictures/130000/velka/aqua-blue-gradient-background.jpg');
+	background: url('../images/backGround.png');
 	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
 	image-orientation: center;
@@ -10,15 +10,17 @@ header{
 }
 
 .btn-primary,.reset{
-	background-color: #313477;
+	background-color: darkred;
 	color: white;
 	font-family: 'Sigmar One', sans-serif;
 	font-size: 30px;
 	padding: 20px;
 	margin-top: 100px;
+	cursor: pointer;
 }
 .btn-primary:hover, .reset:hover{
-	background-color: #202364;
+	background-color: darkred;
+	cursor: pointer;
 }
 
 .container{
@@ -33,9 +35,10 @@ h2, #message, #finalMessage{
 }
 
 .thisChoice:hover{
-	background-color: #202364;
+	background-color: darkred;
 	color: white;
 	padding: 10px;
+	cursor: pointer;
 }
 
 #gif{
